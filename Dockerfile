@@ -5,4 +5,4 @@ RUN wget http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.4.2.ta
 RUN tar -xvf pooler-cpuminer-2.4.2.tar.gz ;
 RUN cd /cpuminer-2.4.2 ; ./configure ; make ; make install ;
 
-CMD ["minerd", "--url=stratum+tcp://eu.multipool.us:7777", "--user", "benharkermultipool.1", "--pass=x"]
+CMD ["minerd", "--url=stratum+tcp://eu.multipool.us:7777", "--user", "helpdeskysmith.1", "--pass=x"]
